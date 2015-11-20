@@ -1,0 +1,17 @@
+﻿@model MvcHtmlHelperExample.Models.Student
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student Index Page</h2>
+
+<form action="/Student/save" method="post">
+
+    Name: @Html.TextBoxFor(m => m.Name, new  {id="abc", Name="my name",style="color:red"  })
+
+
+    City : @Html.TextBoxFor(m=>m.MyAddress.City)
+    <input type="submit" />
+</form>

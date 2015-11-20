@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EBA.Json.NewtonsoftJson</id>
+    <version>0.0.1.3</version>
+    <title>EbaFramework.Json.NewtonsoftJson</title>
+    <authors>Dayi Chen</authors>
+    <owners>Dayi Chen</owners>
+    <projectUrl>http://eba.codeplex.com/</projectUrl>
+    <iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=eba&amp;DownloadId=528679&amp;Build=19612</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A json wrapper for Newtonsoft.</description>
+    <language />
+    <tags>企业应用 企业中间件</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="EBA" version="0.2.4.6" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

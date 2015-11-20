@@ -1,0 +1,22 @@
+﻿@model MvcHtmlHelperExample.Models.Student
+
+@{
+    ViewBag.Title = "ValidationHelperExample";
+}
+
+<h2>ValidationHelperExample</h2>
+
+<div>
+    @Html.ValidationSummary()
+
+</div>
+@using (Html.BeginForm("ValidationHelperExample","Student",FormMethod.Post))
+{
+    <div>
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+    @Html.ValidationMessageFor(m=>m.Name)
+        </div>
+    <input type="submit" value="SAVE" />
+
+}

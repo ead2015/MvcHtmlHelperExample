@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "DDL";
+}
+
+<h2>DDL</h2>
+
+<form action="/student/ddlsave" method="post">
+Countries:
+
+ @Html.DropDownList("countries")
+
+    
+    <input type="submit" />
+
+    </form>
